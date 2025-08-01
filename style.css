@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{}
+
+#slider{
+    position: relative;
+}
+#slider .hed1{
+    text-align: center;
+    font-size: 32px;
+    margin: 10px;
+}
+#slider img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#content{}
+#checker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+#checker-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+} */
+#checker .hed1{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+#checker_form{
+    position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+
+  backdrop-filter: blur(50px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  width: 420px;
+  color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+  
+ 
+}
+
+#content .code{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    height: 50px;
+}
+#content input{
+    width: 100%  ;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: white;
+}
+ #footer{}
