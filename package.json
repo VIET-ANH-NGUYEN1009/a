@@ -1,0 +1,25 @@
+{
+  "name": "api_master_key",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "msnodesqlv8": "^4.5.0",
+    "mssql": "^11.0.1",
+    "socket.io": "^4.8.1",
+    "tedious": "^18.6.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
